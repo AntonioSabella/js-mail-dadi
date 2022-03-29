@@ -6,8 +6,12 @@ const full_name = prompt('Inserisci il tuo nome completo');
 
 const user_mail = prompt('Inserisci la tua email');
 
+//Creare array con email
+
 const arrayAccessEmail = ["rossella@gmail.com","antonio@gmail.com","giorgio@gmail.com","giulio@gmail.com","alessandro@gmail.com","martina@gmail.com", "lucas@gmail.com"];
 let info;
+
+// Verificare se la mail è presente nel "database" e mostrare risultato dell'operazione
 
 if (arrayAccessEmail.includes(user_mail)) {
     info = `Benvenuto ${full_name}. La tua email è contenuta nel database: Accesso confermato✔✔😎`;
