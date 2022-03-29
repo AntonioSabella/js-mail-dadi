@@ -1,0 +1,60 @@
+.container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.access_off {
+    color: red;
+    animation-name: not_permitted;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes not_permitted {
+    0% {
+        color: red;
+    }
+    10% {
+        color: white;
+    }
+    20% {
+        color: red;
+    }
+    30% {
+        color: white;
+    }
+    40% {
+        color: red;
+    }
+    50% {
+        color: white;
+    }
+    60% {
+        color: red;
+    }
+    70% {
+        color: white;
+    }
+    80% {
+        color: red;
+    }
+    90% {
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
+
+
+
+.access_on {
+    color: greenyellow;
+    background-color: green;
+}
